@@ -1,0 +1,79 @@
+/* add your CSS here */
+
+* 
+{
+    box-sizing: border-box;
+}
+
+html
+{
+	font-family: cursive,serif;
+	font-size: 13px;
+}
+
+.whole-card
+{
+	width: 350px;
+	height: 550px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #1885a2;
+	border-radius: 8px;
+	box-shadow: 5px 5px 7px #0c80b7;
+	margin: auto;
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+.trex-title
+{
+ 	margin :10px 20px;
+}
+
+#trex-Image
+{
+    width: 300px;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  #1885a2; 
+    border-radius: 8px;
+    margin: 5px 20px;
+}
+
+.description
+{
+	height: 250px;
+	word-wrap: break-word;
+	background-color:#c6dfe6;
+	/*Udacity Color Yay! Great */
+	/*background-color: rgb(2,179,228);*/
+	border-width: 5px;
+	border-style: solid;
+	border-color: #1885a2;
+	border-radius: 8px;
+	padding: 5px 10px;
+	margin: 6px 20px 10px;
+}
+
+.interestingFact
+{
+	font-size: 11px;
+    font-style: italic;
+}
+
+ul
+{
+	list-style: none;
+	list-style-position: inside;
+	font-size: 11px;
+	padding: 0px;
+	margin: 0px;
+}
+
+li span
+{
+	font-weight: bold;
+}
+
